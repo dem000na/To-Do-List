@@ -1,0 +1,77 @@
+@font-face{
+    src: url(/Websites/Fonts/Roboto-Regular.ttf);
+    font-family: Roboto-Regular;
+}
+
+body{
+    font-family: Roboto-Regular , verdana, arial;
+}
+
+#todoNameBox{
+    height: 30px;
+}
+
+#todoDateBox{
+    height: 32px;
+}
+
+#addBtn{
+    padding: 10px 30px;
+    background-color: hsl(120, 75%, 40%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#addBtn:hover{
+    background-color: hsl(120, 75%, 46%);
+}
+
+#addBtn:active{
+    background-color: hsl(120, 75%, 43%);
+}
+
+#errorToDoName{
+    font-size: 13px;
+    color: red;
+}
+
+#errorToDoDate{
+    position: absolute;
+    left: 190px;
+    font-size: 13px;
+    color: red;
+}
+
+
+.container{
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.todoDate{
+    position: absolute;
+    left: 190px;
+}
+
+
+.deleteBtn{
+    position: absolute;
+    left: 309px;
+    transform: translateY(-10px);
+    background-color: hsl(0, 100%, 50%);
+    color: white;
+    padding: 10px 23px;
+    border: none;
+    cursor: pointer;
+}
+
+.deleteBtn:hover{
+    background-color: hsl(0, 100%, 62%);
+}
+
+.deleteBtn:active{
+    background-color: hsl(0, 100%, 55%);
+}
